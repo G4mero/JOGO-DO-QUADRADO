@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("backgroud.jpg");
+}
+
+.container {
+    max-width: 500px;
+    margin: 150px auto;
+    padding: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    color: #fff
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0065f2;
+    color: #000000
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0575ed;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #042196;
+    color: #fff
+}
+
+/* Estilos para os cursos */
+.course {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff
+}
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

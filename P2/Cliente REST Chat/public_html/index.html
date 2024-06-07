@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Manager</title>
+</head>
+<body>
+    <h1>Product Manager</h1>
+
+    <h2>Add Product</h2>
+    <form id="addProductForm">
+        <label for="productName">Name:</label>
+        <input type="text" id="productName" name="name" required><br>
+
+        <label for="productPrice">Price:</label>
+        <input type="number" id="productPrice" name="price" required><br>
+
+        <label for="productDescription">Description:</label>
+        <textarea id="productDescription" name="description"></textarea><br>
+
+        <button type="submit">Add Product</button>
+    </form>
+
+    <h2>Products</h2>
+    <ul id="productList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
